@@ -1,0 +1,111 @@
+
+/* RESET */
+*{margin: 0; padding: 0; font-size: 100%; border: none;outline: none; font-weight: 300; box-sizing: border-box;
+font-family: 'Lato', sans-serif; }
+body{background-color: #f5f5f5;}
+a{text-decoration: none;}
+ul{list-style: none;}
+img{max-width: 100%; }
+
+
+/* ====== container ====== */
+.container {width: 100%; float: left; padding: 3% 4%; text-align: center;}
+/* ====== BG colors ====== */
+.bg-gradient{background: linear-gradient(to right, #3ca33a, #126644);}
+/* ====== HELPERS ====== */
+.radius {border-radius: 7px;}
+
+
+/* cabeçalho */
+.logo{width: 56px; height: 56px; float: left; background: url(imagens/logo2.jpg) center center/56px no-repeat;
+font-size: 0}
+/* MENU */
+.btn-menu{width: 56px; height: 56px; float: right;text-align: center; color: #fff; border-radius: 56px; cursor: pointer;
+background: linear-gradient(to right, #3ca33a, #126644);}   /*cores da logo */
+.menu{display: none; width: 100%; height: 100%; position: fixed;background-color: rgba(0,0,0,0.9); top: 0; left: 0;}
+.btn-close{font-size: 1.5em; color: #fff; float: right; cursor: pointer; margin: 2% 3% 0 0;}
+.menu ul {width: 100%; float: left; text-align: center;}
+.menu li {padding: 3.5%;}
+.menu li a {font-size: 3em; color: #fff; padding: 1,5% 3%;}
+.menu li a:hover {border:1px solid #3ca33a;}
+
+/* BANNER */
+.banner{background: url(imagens/bg-aereo.png) no-repeat fixed;}
+.title{width: 100%;}
+.title h2 {font-size: 2em; color: #fff; font-weight: 700}
+.title h3 {font-size: 1.4em; color: #fff;}
+
+/*serviços */
+.servico {width: 100%; background-color: #fff; text-align: center; border-radius: 7px; margin-bottom: 3%;}
+.servico img {width:80%; border-radius: 7px 7px 7px 7px;}
+.inner {padding: 7%}
+.inner h1 { font-size: 1.5em; color:#146642 /*#3ca33a*/ ; font-weight: bold;}
+.inner h2 {font-size: 1.0em; color:#146642 /*#3ca33a*/ ; line-height:1.5em; text-align: justify; text-indent:3em;
+padding: 1.5em 1.5em;}
+.inner h3 {font-size: 1.0em; color:#146642 /*#3ca33a*/ ; line-height:1.5em; text-align: justify; text-indent:0em;
+padding: 1.5em 1.5em;} /* para tópicos */
+
+
+/* NEWSLETTER */
+.newsletter{background-color:#3ca33a}
+.newsletter h1{font-size: 0.9em; color: #fff; font-weight: 700; }
+.newsletter i {color: #fff;}
+
+/* rodapé */
+ .rodape h1{font-size: 0.9em; color: #fff; font-weight: 700;}
+.social-icons a {font-size: 1.5em; color: rgba(255, 255, 255, 0.7); margin-right: 3%;}
+.social-icons a :last-child{margin-right: 0;} 
+.social-icons a:hover{color: rgba(255, 255, 255);}
+.copyright {margin-top: 2%; color: rgba(255,255,255,0.7);}
+.copyright a {font-size: 1.0em; color: rgba(255, 255, 255, 0.7); margin-right: 3%;}
+.copyright a:hover{color: rgba(255, 255, 255);}
+
+.formulario i{color:#126644; vertical-align:right;}
+.formulario input {border:1.3px solid #126644;; border-radius:2px; padding: 4px 35px; margin: 3px; float: center; text-align: center;}
+.formulario textarea {border:1.3px solid #126644;border-radius:2px; padding: 45px 45px; margin: 3px; float: center; }
+
+
+
+/*============== Mobile First ==============  */
+
+/*=======Smartphones=======*/
+
+
+/*
+
+@media screen and (min-width: 770px) {
+	.title h2{font-size: 3em;}	
+	.title h3{font-size: 2.5em;}
+
+	
+	.logo{width: 86px; height: 86px; background: url(imagens/logo2.jpg) center center/86px no-repeat;
+		font-size: 0}
+	
+	.btn-menu{width: 80px; height: 80px; float: right;text-align: center; color: #fff; border-radius: 56px; cursor: pointer;
+	background: linear-gradient(to right, #3ca33a, #126644);}   
+	.servico img {width:60%;}
+	.inner a { font-size: 2.0em;}
+	.inner p { font-size: 1.5em;}
+	.endereco h1 {font-size: 1em;}
+	.copyright p {font-size: 1em;}
+}
+
+@media screen and (min-width:1024px){
+	.title h2{font-size: 3.5em;}	
+	.title h3{font-size: 3.0em;}	
+	.btn-menu{display: none;}
+	.btn-close{display: none;}
+	.menu{width: auto;height: 56px; line-height: 56px; float: right; background-color: #f5f5f5;
+	display: block !important; position: static;}
+	.menu li {padding: 0; float: left;}
+	.menu li a {color: #130400; font-size: 1.5em; padding: 15px;}
+	.menu li a:hover {border: none; color:#3ca33a}
+	.logo{width: 140px; height: 86px; background: url(imagens/logo2.jpg) center center/86px no-repeat;
+	font-size: 0}
+	.servico img {width:65%; border-radius: 7px 7px 7px 7px;}
+	.inner h2{font-size: 2.5em;}
+}
+
+*/
+
+

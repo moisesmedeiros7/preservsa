@@ -52,7 +52,7 @@ padding: 1.5em 1.5em;} /* para tópicos */
 .newsletter i {color: #fff;}
 
 /* rodapé */
- .rodape h1{font-size: 0.9em; color: #fff; font-weight: 700;}
+.rodape h1{font-size: 0.9em; color: #fff; font-weight: 700;}
 .social-icons a {font-size: 1.5em; color: rgba(255, 255, 255, 0.7); margin-right: 3%;}
 .social-icons a :last-child{margin-right: 0;} 
 .social-icons a:hover{color: rgba(255, 255, 255);}
@@ -61,13 +61,10 @@ padding: 1.5em 1.5em;} /* para tópicos */
 .copyright a:hover{color: rgba(255, 255, 255);}
 
 
-.formulario i{color:#126644; vertical-align:right;}
-.formulario input {border:1.3px solid #126644;; border-radius:2px; padding: 4px 35px; margin: 3px; float: center; text-align: center;}
-.formulario textarea {border:1.3px solid #126644;border-radius:2px; padding: 85px 35px; margin: 3px; float: center;}
+.formulario i{color:#126644;}
+.formulario input {border:1.3px solid #126644; border-radius:2px; padding: 4px 35px; margin: 3px; float: center; text-align: center;}
+.formulario textarea {border:1.3px solid #126644;border-radius:2px; padding: 10px 10px;  margin: 3px 3px 3px 80px; float:center; width: 268px; height: 180px;}
 .formulario button {border:1.3px solid #126644; border-radius:2px; color: #fff; background-color:#146642; padding: 3px 8px; margin: 1.5px;}
-
-
-
 
 
 /*============== Mobile First ==============  */

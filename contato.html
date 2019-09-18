@@ -43,7 +43,7 @@
 
 			
 				<div class="formulario">
-				<form action="form" method="get">
+				<form action="form.php" method="post">
    				 	<div class="grupo"><i class="fas fa-user-shield">  Nome :</i>
    				 	<input class="Nome" id="nomeid" type="text" >
 
@@ -51,27 +51,13 @@
    				 	<input class="E-mail" id="emailid" type="text" >
 
    				 	<div class="grupo"><i class="fas fa-mobile">Telefone:</i>
-   				 	<input class="Telefone" id="telefoneid" type="text" > </br>
+   				 	<input class="Telefone" id="telefoneid" type="text"> </br>
 
-   				 	<div class="grupo"><i class="far fa-comment-dots">Mensagem:</i>
-   				 	<textarea class="Mensagem" id="mensagemid" type="text"></textarea> </br>
+   				 	<div class="grupo">
+   				 	<textarea class="Mensagem" id="mensagemid" type="text" placeholder="Escreva sua mensagem aqui..." ></textarea> </br>
 
    				 	<button id="enviaid" class="grupo" type="submit">Enviar</button>
 		    	</form>
-
-		    	<script type="text/javascript">
-		    		
-		    		function Enviar() {
- 
-    				var nome = document.getElementById("nomeid");
- 
-    					if (nome.value != "") {
-        				alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
-    					}
- 
-					}
-		    	</script>
-
 
 
 		    	</div>
@@ -105,7 +91,7 @@
 			<a href="https://www.facebook.com/moisesmdrs7" target="_blank"><i class="fas fa-code"> Desenvolvimento: @moisesmedeiros7</i></a>
 		</p>
 	</footer>
-	</footer>
+	
 	
 	
 	<!-- JQUERY controlando ações do MENU-->

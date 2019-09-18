@@ -43,21 +43,12 @@
 
 			
 				<div class="formulario">
-				<form action="form.php" method="POST">
-   				 	<div class="grupo"><i class="fas fa-user-shield">  Nome :</i>
-   				 	<input class="Nome" id="nomeid" type="text" >
-
-   				 	<div class="grupo"><i class="fas fa-envelope">  E-mail:</i>
-   				 	<input class="E-mail" id="emailid" type="text" >
-
-   				 	<div class="grupo"><i class="fas fa-mobile">Telefone:</i>
-   				 	<input class="Telefone" id="telefoneid" type="text"> </br>
-
-   				 	<div class="grupo">
-   				 	<textarea class="Mensagem" id="mensagemid" type="text" placeholder="Escreva sua mensagem aqui..." ></textarea> </br>
-
-   				 	<button id="enviaid" class="grupo" type="submit">Enviar</button>
-		    	</form>
+					
+					<form action="email.php" method="post">
+          				<input type="text" name="assunto" placeholder="Assunto">
+          				<input type="text" name="mensagem" placeholder="Mensagem">
+          				<input type="submit" name="Enviar">
+					</form>
 
 
 		    	</div>

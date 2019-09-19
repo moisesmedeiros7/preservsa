@@ -39,8 +39,10 @@ Comments:	'.$_POST['comentario'].'
  
     // Enviando  
     $mail->AddAddress($emailReal); // Pra onde Enviar 
-    $result = $mail->Send();		// Send!  
+    $result = $mail->Enviar();		// Send!  
 	$message = $result ? 'Successfully Sent!' : 'Sending Failed!';      
 	unset($mail);
+    echo = "<meta http-equiv='Refresh' content='0;URL=contato.html>";
+
 }
 ?>

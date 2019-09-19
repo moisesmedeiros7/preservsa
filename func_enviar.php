@@ -42,6 +42,5 @@ Comments:	'.$_POST['comentario'].'
     $result = $mail->Enviar();		// Send!  
 	$message = $result ? 'Successfully Sent!' : 'Sending Failed!';      
 	unset($mail);
-
 }
 ?>

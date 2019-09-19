@@ -42,7 +42,7 @@ function smtpmailer($para, $de, $de_nome, $assunto, $corpo) {
 
  if (smtpmailer('preservsa@gmail.com', 'contatopreservsa@gmail.com', $Nome , 'Contato - site', $Vai)) {
 
-	Header("location:http://www.dominio.com.br/obrigado.html"); // Redireciona para uma página de obrigado.
+	Header("location:http://www.preservsa.com.br/obrigado.html"); // Redireciona para uma página de obrigado.
 
 }
 if (!empty($error)) echo $error;

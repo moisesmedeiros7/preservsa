@@ -42,7 +42,6 @@ Comments:	'.$_POST['comentario'].'
     $result = $mail->Enviar();		// Send!  
 	$message = $result ? 'Successfully Sent!' : 'Sending Failed!';      
 	unset($mail);
-    echo = "<meta http-equiv='Refresh' content='0;URL=index.php>";
 
 }
 ?>

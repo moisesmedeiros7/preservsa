@@ -17,7 +17,7 @@ img{max-width: 100%; }
 
 
 /* cabeçalho */
-.logo{width: 56px; height: 56px; float: left; background: url(imagens/logo2.jpg) center center/56px no-repeat;
+.logo{width: 56px; height: 56px; float: left; background: url(imagens/logo-preserv-vazado.svg) center center/56px no-repeat;
 font-size: 0}
 /* MENU */
 .btn-menu{width: 56px; height: 56px; float: right;text-align: center; color: #fff; border-radius: 56px; cursor: pointer;
@@ -44,7 +44,6 @@ background: linear-gradient(to right, #3ca33a, #126644);}   /*cores da logo */
 padding: 1.5em 1.5em;}
 .inner h3 {font-size: 1.0em; color:#146642 /*#3ca33a*/ ; line-height:1.5em; text-align: justify; text-indent:0em;
 padding: 1.5em 1.5em;} /* para tópicos */
-
 
 /* NEWSLETTER */
 .newsletter{background-color:#3ca33a}
@@ -86,7 +85,7 @@ padding: 1.5em 1.5em;} /* para tópicos */
 	.inner a { font-size: 2.0em;}
 	.inner p { font-size: 1.5em;}
 	.inner h2 { font-size: 1.5em;}
-	.inner h3 { font-size: 1.5em;}
+	.inner h3 { font-size: 1.5em; }
 	.endereco h1 {font-size: 1em;}
 	.copyright p {font-size: 1em;}
 }
@@ -102,7 +101,8 @@ padding: 1.5em 1.5em;} /* para tópicos */
 	.menu li {padding: 0; float: left;}
 	.menu li a {color: #130400; font-size: 1.2em; padding: 15px;}
 	.menu li a:hover {border: none; color:#3ca33a}
-	.logo{width: 140px; height: 56px; background: url(imagens/logo2.jpg) center center/86px no-repeat;
+	.cabecalho {height: 140px;}
+	.logo{width: 140px; height: 140px; background: url(imagens/logo-preserv-vazado.svg) left top/86px no-repeat;
 	font-size: 0}
 	.servico img {width:30%; border-radius: 7px 7px 7px 7px;}
 	.inner h1{font-size: 1.6em;}
@@ -112,9 +112,8 @@ padding: 1.5em 1.5em;} /* para tópicos */
 	.rodape h1{font-size: 1.0em;}
 	.rodape i{font-size: 1.0em;}
 
-	.formulario input {border:1.3px solid #126644; border-radius:2px; padding: 5px 5px; margin: 3px; float: center; text-align: center; width: 268px;}
-	.formulario textarea {border:1.3px solid #126644;border-radius:2px; padding: 5px 5px;  margin: 3px ; float:center;text-align: center; width: 268px; height: 180px;}
-	.formulario button {border:1.3px solid #126644; border-radius:2px; color: #fff; background-color:#146642; padding: 3px 8px; margin: 1.5px;}
+	.formulario input {border:1.3px solid #126644; border-radius:2px; padding: 5px 5px; margin: 3px; float: center; text-align: center; width: 368px;}
+	.formulario textarea {border:1.3px solid #126644;border-radius:2px; padding: 5px 5px;  margin: 3px ; float:center;text-align: center; width: 368px; height: 180px;}
 
 }
 

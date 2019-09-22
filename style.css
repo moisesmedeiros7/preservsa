@@ -105,7 +105,7 @@ padding: 1.5em 1.5em;} /* para tópicos */
 	.logo{width: 140px; height: 140px; background: url(imagens/logo-preserv-vazado.svg) left top/86px no-repeat;
 	font-size: 0}
 	.servico img {width:30%; border-radius: 7px 7px 7px 7px;}
-	.inner {float: center;}
+	.inner {float: left;}
 	.inner h1{font-size: 1.6em;}
 	.inner h2{font-size: 1.4em;}
 	.inner h3{font-size: 1.4em;}

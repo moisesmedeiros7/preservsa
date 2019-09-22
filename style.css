@@ -105,15 +105,19 @@ padding: 1.5em 1.5em;} /* para tópicos */
 	.logo{width: 140px; height: 140px; background: url(imagens/logo-preserv-vazado.svg) left top/86px no-repeat;
 	font-size: 0}
 	.servico img {width:30%; border-radius: 7px 7px 7px 7px;}
+	.inner {float: center;}
 	.inner h1{font-size: 1.6em;}
 	.inner h2{font-size: 1.4em;}
 	.inner h3{font-size: 1.4em;}
-	.newsletter h1{font-size: 1.0em;}
+	.newsletter h1{font-size: 1.0em; clear: both;}
 	.rodape h1{font-size: 1.0em;}
 	.rodape i{font-size: 1.0em;}
 
+	.formulario {float: left; margin: 0px; width: 50%;}
 	.formulario input {border:1.3px solid #126644; border-radius:2px; padding: 5px 5px; margin: 3px; float: center; text-align: center; width: 368px;}
 	.formulario textarea {border:1.3px solid #126644;border-radius:2px; padding: 5px 5px;  margin: 3px ; float:center;text-align: center; width: 368px; height: 180px;}
+	.info { float: left; font-size: 1em; padding: 0px; margin-left: 10% ; width: 40%;}
+	.info h4{font-size: 1.4em; color:#126644; padding: 0px; margin: 0px;}
 
 }
 

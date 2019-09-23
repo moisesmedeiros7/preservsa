@@ -38,7 +38,7 @@ background: linear-gradient(to right, #3ca33a, #126644);}   /*cores da logo */
 /*serviços */
 .servico {width: 100%; background-color: #fff; text-align: center; border-radius: 7px; margin-bottom: 3%;}
 .servico img {width:50%; border-radius: 7px 7px 7px 7px;}
-.inner {padding: 1.0%}
+.inner {padding: 1.0%; min-height: 447px;} 
 .inner h1 { font-size: 1.5em; color:#146642 /*#3ca33a*/ ; font-weight: bold;}
 .inner h2 {font-size: 1.0em; color:#146642 /*#3ca33a*/ ; line-height:1.5em; text-align: justify; text-indent:3em;
 padding: 1.5em 1.5em;}
@@ -46,7 +46,7 @@ padding: 1.5em 1.5em;}
 padding: 1.5em 1.5em;} /* para tópicos */
 
 /* NEWSLETTER */
-.newsletter{background-color:#3ca33a}
+.newsletter{background-color:#3ca33a;} 
 .newsletter h1{font-size: 0.9em; color: #fff; font-weight: 700; }
 .newsletter i {color: #fff;}
 
@@ -65,6 +65,10 @@ padding: 1.5em 1.5em;} /* para tópicos */
 .formulario textarea {border:1.3px solid #126644;border-radius:2px; padding: 10px 10px;  margin: 3px ; float:center;text-align: center; width: 268px; height: 180px;}
 .formulario button {border:1.3px solid #126644; border-radius:2px; color: #fff; background-color:#146642; padding: 3px 8px; margin: 1.5px;}
 
+.info {float:center; font-size: 1em; padding: 1px; margin: 0px; margin-bottom: 20px; border: 1.0px solid #197042;
+ border-radius: 5px;}
+.info h4{font-size: 1.0em; color:#126644;}
+.info i {color:#126644;}
 
 /*============== Mobile First ==============  */
 
@@ -105,7 +109,7 @@ padding: 1.5em 1.5em;} /* para tópicos */
 	.logo{width: 140px; height: 140px; background: url(imagens/logo-preserv-vazado.svg) left top/86px no-repeat;
 	font-size: 0}
 	.servico img {width:30%; border-radius: 7px 7px 7px 7px;}
-	.inner {float: left;}
+	.inner {float: center;}
 	.inner h1{font-size: 1.6em;}
 	.inner h2{font-size: 1.4em;}
 	.inner h3{font-size: 1.4em;}
@@ -116,9 +120,10 @@ padding: 1.5em 1.5em;} /* para tópicos */
 	.formulario {float: left; margin: 0px; width: 50%;}
 	.formulario input {border:1.3px solid #126644; border-radius:2px; padding: 5px 5px; margin: 3px; float: center; text-align: center; width: 368px;}
 	.formulario textarea {border:1.3px solid #126644;border-radius:2px; padding: 5px 5px;  margin: 3px ; float:center;text-align: center; width: 368px; height: 180px;}
-	.info { float: left; font-size: 1em; padding: 0px; margin-left: 10% ; width: 40%;}
-	.info h4{font-size: 1.4em; color:#126644; padding: 0px; margin: 0px;}
-
+	.info { float: left; font-size: 1em; padding: 5px; padding-bottom: 30px; margin: 0px; margin-left: 5%;
+		    width: 40%; border: 1.0px solid #197042; background-color: white; border-radius: 5px;}
+	.info h4{font-size: 1.4em; color:#126644;}
+	.info i {color:#126644; margin-right: 3%;} 
 }
 
 

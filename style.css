@@ -30,7 +30,7 @@ background: linear-gradient(to right, #3ca33a, #126644);}   /*cores da logo */
 .menu li a:hover {border:1px solid #3ca33a;}
 
 /* BANNER */
-.banner{background: url(imagens/bg-aereo.png) no-repeat fixed;}
+.banner{background: url(imagens/bg.png) no-repeat fixed;}
 .title{width: 100%;}
 .title h2 {font-size: 2em; color: #fff; font-weight: 700}
 .title h3 {font-size: 1.4em; color: #fff;}
@@ -66,8 +66,8 @@ padding: 1.5em 1.5em;} /* para tópicos */
 .formulario button {border:1.3px solid #126644; border-radius:2px; color: #fff; background-color:#146642; padding: 3px 8px; margin: 1.5px;}
 
 .info {float:center; font-size: 1em; padding: 1px; margin: 0px; margin-bottom: 20px; border: 1.0px solid #197042;
- border-radius: 5px;}
-.info h4{font-size: 1.0em; color:#126644;}
+ border-radius: 5px; background-color: #d3d3d3;}
+.info h4{font-size: 1.0em; color:#3ca33a;}
 .info i {color:#126644;}
 
 /*============== Mobile First ==============  */
@@ -121,7 +121,7 @@ padding: 1.5em 1.5em;} /* para tópicos */
 	.formulario input {border:1.3px solid #126644; border-radius:2px; padding: 5px 5px; margin: 3px; float: center; text-align: center; width: 368px;}
 	.formulario textarea {border:1.3px solid #126644;border-radius:2px; padding: 5px 5px;  margin: 3px ; float:center;text-align: center; width: 368px; height: 180px;}
 	.info { float: left; font-size: 1em; padding: 5px; padding-bottom: 30px; margin: 0px; margin-left: 5%;
-		    width: 40%; border: 1.0px solid #197042; background-color: white; border-radius: 5px;}
+		    width: 40%; border: 1.0px solid #197042;border-radius: 5px;}
 	.info h4{font-size: 1.4em; color:#126644;}
 	.info i {color:#126644; margin-right: 3%;} 
 }
